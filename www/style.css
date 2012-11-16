@@ -1,0 +1,22 @@
+body
+{
+padding-top: 60px;
+padding-bottom: 40px;
+background: url("./images/background.jpeg");
+}
+ .sidebar-nav 
+{
+ padding: 9px 0;
+}
+#cl
+{
+color: white;
+}
+#header 
+{
+border-radius: 10px;
+}
+.well
+{
+margin-top: 10px;
+}
