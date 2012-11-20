@@ -33,7 +33,8 @@ function sendDynamicAction(req, res, next){
     }
     if (misc.existsSync(file) && model.isDynamicFile(file)){
         res.writeHead(200, {'Content-Type':misc.getMIME(file) });
-        res.end(view.render(model.getFileData(file)));
+   
+	  res.end(view.render(model.getFileData(file)));
     } else {
         next();
     }
